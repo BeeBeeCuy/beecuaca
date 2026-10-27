@@ -1,0 +1,14 @@
+*{box-sizing:border-box;font-family:"Segoe UI",Arial,sans-serif}
+body{margin:0;background:linear-gradient(160deg,#0f172a,#123);color:#e2e8f0;min-height:100vh}
+.wrap{max-width:820px;margin:2rem auto;padding:0 1rem}
+h1{color:#f5b301;margin-bottom:.2rem}
+.sub{color:#94a3b8}
+form{display:flex;gap:.5rem;margin:1rem 0}
+input{flex:1;background:#111c33;border:1px solid #334155;color:#e2e8f0;border-radius:8px;padding:.6rem .8rem}
+button{background:#f5b301;color:#191204;border:0;border-radius:8px;padding:.6rem 1.1rem;font-weight:700;cursor:pointer}
+.kartu{background:#111c33;border:1px solid #1f2c47;border-radius:14px;padding:1.3rem;margin-bottom:1.2rem}
+.kartu .suhu{font-size:2.6rem;font-weight:800;color:#f5b301}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:.7rem}
+.hari{background:#111c33;border:1px solid #1f2c47;border-radius:12px;padding:.8rem;text-align:center}
+.hari b{display:block;margin-bottom:.3rem}
+footer{text-align:center;color:#94a3b8;padding:1rem}
